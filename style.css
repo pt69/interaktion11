@@ -1,0 +1,28 @@
+.buttonCSS {
+    background-color: rgb(100, 200, 50);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: white;
+    width: 90px;
+    padding: 5px 10px;
+    font-family: Delius;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttonCSS:active {
+    background-color: white; 
+    border: 2px solid rgb(10, 150, 10);
+}
+
+.buttonCSS:hover {
+    background-color: rgb(10, 150, 10);
+    color: white;
+}
